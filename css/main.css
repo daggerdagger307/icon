@@ -26,7 +26,7 @@ body {
 .icon-otd-logo {
     vertical-align: middle;
     padding-top: .3em;
-    padding-left: .5em;
+    padding-right: .5em;
     font-size: 2em;
 }
 
@@ -42,6 +42,7 @@ body {
     transition: 1s;
     padding: 3em;
     background-color: grey;
+    font-style: italic;
 }
     
 .btn-2 {
