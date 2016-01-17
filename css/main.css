@@ -59,6 +59,12 @@ body {
     background: -o-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Opera 11.1-12*/
     background: -moz-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Fx 3.6-15*/
     background: radial-gradient(rgba(255,255,255,1), rgba(128,128,192,0)); /*Standard*/
+    
+        -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
 
 
