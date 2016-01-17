@@ -17,3 +17,16 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.btn {
+    color: #000;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 3em;
+    max-width: 40em; 
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
