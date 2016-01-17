@@ -18,15 +18,47 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-otd-logo {
+    vertical-align: middle;
+    padding-top: .3em;
+    padding-left: .5em;
+    font-size: 2em;
+}
+
 .btn {
-    color: #000;
     display: block;
     font-size: 60px;
     font-weight: bold;
     margin: 0 auto;
-    padding-top: 3em;
-    max-width: 40em; 
     position: relative;
     text-decoration: none;
     width: 100%;
     text-align: center;
+    transition: 1s;
+    padding: 3em;
+    background-color: grey;
+}
+    
+.btn-2 {
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    color: darkgrey;
+    letter-spacing: 5px;  
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Safari 5.1-6*/
+    background: -o-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Fx 3.6-15*/
+    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,192,0)); /*Standard*/
+}
+
+
+
