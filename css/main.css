@@ -1,0 +1,71 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-otd-logo {
+    vertical-align: middle;
+    padding-top: .3em;
+    padding-right: .5em;
+    font-size: 2em;
+}
+
+.btn {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    padding: 3em;
+    background-color: grey;
+    font-style: italic;
+}
+    
+.btn-2 {
+    color: #fff;
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    color: darkgrey;
+    letter-spacing: 5px;  
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Safari 5.1-6*/
+    background: -o-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Opera 11.1-12*/
+    background: -moz-radial-gradient(rgba(255,255,255,1),rgba(128,128,128,0)); /*Fx 3.6-15*/
+    background: radial-gradient(rgba(255,255,255,1), rgba(128,128,192,0)); /*Standard*/
+    
+        -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+
+
